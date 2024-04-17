@@ -9,4 +9,4 @@ class CandidateBase(BaseModel):
 class Candidate(CandidateBase):  
     id: int  
     class Config:
-	    orm_mode = True
+	    from_attributes = True
