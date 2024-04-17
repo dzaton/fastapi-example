@@ -13,7 +13,7 @@ class candidate_controller:
         self.service = candidate_service()
 
     # CRUD
-    @router.post("/candidate", response_model=Candidate, tags=["candidates"], status_code=200)
+    @router.post("/candidate", tags=["candidates"], status_code=200)
     def create_candidate(self, body:Candidate , db: Session = Depends(get_db)):
         return self.service.create_candidate(body, db)
     

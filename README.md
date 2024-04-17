@@ -7,4 +7,6 @@ Abre la terminal desde el root del proyecto y escribe:
 - pip install requirements.txt
 
 # Funcionamiento:
+Abre el proyecto en Visual Studio Code y dale el icono de play cuando estes posicionado en el main.py
+
 
