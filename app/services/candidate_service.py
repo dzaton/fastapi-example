@@ -1,7 +1,7 @@
 from sqlalchemy.orm import Session
 
 from models import candidate
-from schemas.candidate import CandidateBase, Candidate
+from schemas.candidate import Candidate
 
 class candidate_service():
 
