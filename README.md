@@ -12,6 +12,5 @@ Abre el proyecto en Visual Studio Code y dale el icono de play cuando estes posi
 # TODO
 - Corregir error al crear el candidato
 - Añadir logger
-- Añadir repository pattern
 
 
