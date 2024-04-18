@@ -9,6 +9,9 @@ Abre la terminal desde el root del proyecto y escribe:
 # Funcionamiento:
 Abre el proyecto en Visual Studio Code y dale el icono de play cuando estes posicionado en el main.py
 
-# Da un error al crear la entidad en la bbdd, estoy mirando como solucionarlo
+# TODO
+- Corregir error al crear el candidato
+- Añadir logger
+- Añadir repository pattern
 
 
