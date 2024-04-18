@@ -7,6 +7,6 @@ class candidate(Base):
     __tablename__ = "candidates"
     
     id = Column(Integer, primary_key=True)
-    dni = Column(String)
-    name = Column(String)
-    lastname = Column(String)
+    dni = Column(String, unique=True, nullable=False)
+    name = Column(String, nullable=False)
+    lastname = Column(String, nullable=False)

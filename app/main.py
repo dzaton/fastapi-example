@@ -4,7 +4,6 @@ import uvicorn
 from core.db import SessionLocal, Base, engine
 from routers.routers import api_router
 
-
 app = FastAPI()
 
 Base.metadata.create_all(engine)
