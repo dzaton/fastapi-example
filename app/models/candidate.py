@@ -1,6 +1,7 @@
-from core.db import Base
 from sqlalchemy import Column
 from sqlalchemy import Integer, String
+
+from core.db import Base
 
 class candidate(Base):
     #Table
