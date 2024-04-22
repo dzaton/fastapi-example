@@ -13,7 +13,6 @@ Abre el proyecto en Visual Studio Code y dale el icono de play cuando estes posi
 - /list: lista todos los candidatos
 
 # TODO
-- ERROR: no graba correctamente todos los campos del candidato
 - Añadir logger
 
 
