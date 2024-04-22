@@ -11,7 +11,7 @@ router = APIRouter()
 class candidate_controller:
     
     # Crea un candidato
-    @router.post("/candidate", tags=["candidate"], status_code=200, response_model=CandidateOutput)
+    @router.post("/create", status_code=200, response_model=CandidateOutput)
     def create_candidate(data: CandidateInput, session: Session = Depends(get_db)):
         """ Ruta para crear un candidato 
         
