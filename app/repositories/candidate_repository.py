@@ -32,8 +32,8 @@ class candidate_repository:
             bool
         """
         
-        candidate_db = self.session.query(candidate).filter_by(dni=dni).first()
-        return bool(candidate_db)
+        exist = self.session.query(candidate).filter_by(dni=dni).first()
+        return bool(exist)
     
     def get_all(self) -> List[Optional[CandidateOutput]]:
         """ Obtiene todos los candidatos almacenados en la BBDD 

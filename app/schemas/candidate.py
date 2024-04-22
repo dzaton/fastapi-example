@@ -2,7 +2,7 @@ from typing import List,Optional
 from pydantic import BaseModel, Field, UUID4
 
 class CandidateInDb(BaseModel):  
-    candidate_id: int
+    id: int
     dni:str
     name: str
     lastname: str
@@ -16,7 +16,7 @@ class CandidateInput(BaseModel):
     lastname: Optional[str] = Field(min_length=1, max_length=40)
 
 class CandidateOutput(BaseModel):
-    candidate_id: int
+    id: int
     dni:str
     name: str
     lastname: str
